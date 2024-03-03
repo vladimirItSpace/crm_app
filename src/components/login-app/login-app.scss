@@ -1,6 +1,6 @@
 .main-block {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     background-color: #fff;
     transform: translate(-50%, -50%);
@@ -11,7 +11,7 @@
     padding: 0 32px;
     &__logo-field {
         width: 150px;
-        margin: 0 auto;
+        margin: 30px auto;
         img {
             width: 100%;
         }
@@ -52,6 +52,17 @@
             border: 1px solid #dee2e6;
             border-radius: 0.25rem;
         }
+        
+    }
+    &__error-field{
+        color: red;
+        font-weight: 500;
+
+    }
+    &__message-field{
+        color: green;
+        font-weight: 500;
+        font-size: 18px;
     }
     &__form_check {
         display: flex;
@@ -60,8 +71,8 @@
         gap: 130px;
         button {
             min-width: 110px;
-            background-color: #7a6fbe;
-            border: 1px solid #7a6fbe;
+            background-color: #ee7b00;
+            border: 1px solid #ee7b00;
             color: #fff;
             padding: 6px 16px;
             font-size: 13px;
